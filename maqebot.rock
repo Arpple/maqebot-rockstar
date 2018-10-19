@@ -1,0 +1,111 @@
+(intro)
+North is frozenland
+East is goingtoasea
+South is alowerground
+West is thedeepforest
+All Path is done
+Emptiness is nothing
+The Void is mysterious
+The Truth is true
+The Lie is false
+
+Remaining takes Strength and Obstacle
+    While Strength is as high as Obstacle
+        Put Strength minus Obstacle into Strength
+
+    Give back Strength
+
+
+Proving Number takes Power
+    If Power is as strong as "0" and Power is as weak as "9"
+        Give back The Truth
+
+    Give back The Lie
+
+
+Find Direction takes The Path
+    Put Remaining taking The Path and All Path into The Way
+    If The Way is North
+    Give back "North"
+
+    If The Way is East
+    Give back "East"
+
+    If The Way is South
+    Give back "South"
+
+    If The Way is West
+    Give back "West"
+
+
+(main)
+MySelf was nobody
+my ambition was empty
+my mind was empty
+my heart was empty
+my way was nowhere
+
+
+Turn Right takes Emptiness
+    Build my way up
+    Put Remaining taking my way and All Path into my way
+
+
+Turn Left takes Emptiness
+    Put my way plus 3 into my way
+    Put Remaining taking my way and All Path into my way
+
+
+Move Forward takes Emptiness
+    If my way is North
+        Build my heart up
+
+    If my way is East
+        Build my mind up
+
+    If my way is South
+        Knock my heart down
+
+    If my way is West
+        Knock my mind down
+
+
+My Mission takes Emptiness
+    If Your Order[MySelf] is "L"
+        Put Turn Left taking Emptiness into The Void
+        Build MySelf up
+
+    If Your Order[MySelf] is "R"
+        Put Turn Right taking Emptiness into The Void
+        Build MySelf up
+
+    If Your Order[MySelf] is "W"
+        Put 0 into my ambition
+        Build MySelf up
+        Put Read Number taking Emptiness into The Void
+        While my ambition is stronger than nobody
+            Put Move Forward taking Emptiness into The Void
+            Knock my ambition down
+
+
+
+Read Number takes Emptiness
+    While Proving Number taking Your Order[MySelf]
+        Put my ambition times 10 into My Strenth
+        Put Your Order[MySelf] times 1 into My Body
+        Put My Strenth plus My Body into my ambition
+        Build MySelf up
+
+
+Your Duty takes Emptiness
+    While Your Order[MySelf] is not mysterious
+        Put My Mission taking Emptiness into The Void
+
+
+Say "Enter the commands:"
+Listen to Your Order
+Put Your Duty taking Emptiness into The Void
+
+Say "X: " plus my mind
+Say "Y: " plus my heart
+Say Find Direction taking my way
