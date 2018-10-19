@@ -6,6 +6,9 @@ this project use [rockstar-js](https://github.com/wolfgang42/rockstar-js) to tra
 
 *there is some modification in transpiler to accept `[]` to perform array indexing*
 
+# Source
+./maqebot.rock
+
 # How To Run
 - `npm install` to install dependencies and build rockstar transpiler (or then build with `npm run build`)
 - `npm run compile` to compile `maqebot.rock` to `maqebot.js`
